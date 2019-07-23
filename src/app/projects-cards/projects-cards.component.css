@@ -1,0 +1,20 @@
+.card {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.card-icons {
+    color: blue;
+    size: 40px;
+    margin-right: 10px;
+}
+
+.card-img-top {
+    border-top: 5px black;
+}
+
+.card-header {
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
+}

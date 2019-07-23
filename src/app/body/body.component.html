@@ -1,0 +1,21 @@
+<div id="projects-div" class="projects">
+    <div class="row">
+    </div>
+    <div class="container">
+        <!-- Row of angular and react logos -->
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <div class="container title"><h2>Angular projects</h2></div>
+                <img class="medium-logo centered-in-col" src="https://angular.io/assets/images/logos/angular/angular.png" alt="">
+                <hr>
+                <app-projects-cards [isAngular]="true"></app-projects-cards>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="container title"><h2>React projects</h2></div>
+                <img class="medium-logo centered-in-col" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="">
+                <hr>
+                <app-projects-cards [isAngular]="false"></app-projects-cards>
+            </div>
+        </div>
+    </div>
+</div>

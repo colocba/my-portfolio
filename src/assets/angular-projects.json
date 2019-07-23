@@ -1,0 +1,28 @@
+[{
+    "title": "my portfolio",
+    "description": "My own portfolio with my projects and a little bit of me. Note: Don't get crazy with Recursion while clicking on 'Visit the page' !",
+    "isWebAdapted": "true",
+    "isMobileAdapted": "true",
+    "hasBackend": "false",
+    "url": "#",
+    "picUrl": "assets/portfolio.png"
+    
+},{
+    "title": "Teamgle English version",
+    "description": "Main webpage for Teamgle, a shift and events managment web application.",
+    "isWebAdapted": "true",
+    "isMobileAdapted": "true",
+    "hasBackend": "false",
+    "url": "https://colocba.github.io/teamgle",
+    "picUrl": "assets/teamgle-eng.png"
+    
+},
+{
+    "title": "Teamgle Hebrew version",
+    "description": "Main webpage for Teamgle in hebrew.",
+    "isWebAdapted": "true",
+    "isMobileAdapted": "true",
+    "hasBackend": "false",
+    "url": "https://colocba.github.io/teamgle-heb",
+    "picUrl": "assets/teamgle-heb.png"
+}]

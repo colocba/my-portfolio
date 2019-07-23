@@ -1,0 +1,45 @@
+.custom-toggler.navbar-toggler {
+    border-color: rgb(193, 210, 215);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bg-blue {
+    background-color: transparent !important;
+    transition: 600ms ease;
+}
+
+.bg-blue.scrolled {
+    background-color: rgb(100, 169, 234) !important;
+    box-shadow: rgba(43,54,74,.5) 3px 3px 6px 0px;
+}
+
+#navbarSupportedContent a {
+    color: white !important;
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    #navbarSupportedContent a {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+.navbar-brand {
+    color: beige;
+    font-family: 'Concert One', cursive;
+}
+
+.navbar-brand:hover {
+    color: beige !important;
+}
+
+.divider-white {
+    border-color: whitesmoke;
+}

@@ -1,0 +1,14 @@
+.projects {
+    background-color: #E7F2F8;
+    height: auto;
+}
+
+hr {
+    border-top: 2px solid rgb(66, 131, 206);
+    width: 25%;
+}
+
+.pad-left-half {
+    padding-left: auto !important;
+    padding-right: auto !important;
+}
