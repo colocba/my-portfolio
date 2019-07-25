@@ -1,0 +1,59 @@
+#who-ami-div {
+    height: 350px;
+    width: 100%;
+}
+
+.bg-wave-blue {
+    background-image: linear-gradient(to bottom, rgb(96,166,240), rgb(9,48,122));
+}
+
+.sm-pic {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border: 1px groove black;
+    -webkit-box-shadow: 2px 4px 30px 6px rgba(0,0,0,0.89);
+    -moz-box-shadow: 2px 4px 30px 6px rgba(0,0,0,0.89);
+    box-shadow: 2px 4px 30px 6px rgba(0,0,0,0.89);
+}
+
+.hello-h {
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 40%;
+    text-align: center
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.footer-font {
+    font-family: 'Indie Flower', cursive;
+}
+
+.title-subtitle {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+@media (max-width : 800px) {
+    .title-subtitle {
+        text-align: center;
+    }
+    .hello-h {
+        margin-right: auto;
+        margin-left: auto;
+        width: 60% !important;
+    }
+    .sm-pic {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        margin-bottom: 5px;
+        display: block !important;
+        float: none !important;
+    }
+  } 

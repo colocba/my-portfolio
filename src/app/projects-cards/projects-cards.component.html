@@ -1,9 +1,9 @@
 <div *ngFor="let project of projects" class="card text-center centered-in-col" style="width: 18rem;">
-    <div class="card-header">
-        {{project.title | titlecase}}
-    </div>
     <img src="{{project.picUrl}}" class="card-img-top" alt="...">
     <div class="card-body">
+            <div class="card-title">
+                    {{project.title | titlecase}}
+            </div>
             <p class="card-text">{{project.description}}</p>
             <a href="{{project.url}}" class="btn btn-primary" target="_blank">Visit the page</a>
     </div>

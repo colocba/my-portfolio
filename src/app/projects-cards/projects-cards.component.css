@@ -11,10 +11,11 @@
 }
 
 .card-img-top {
-    border-top: 5px black;
+    border-bottom: 1px solid rgb(247, 247, 247);
 }
 
-.card-header {
+.card-title {
     /* font-family: 'Anton', sans-serif; */
     font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
 }
