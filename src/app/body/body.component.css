@@ -13,3 +13,40 @@ hr {
     padding-left: auto !important;
     padding-right: auto !important;
 }
+
+.bootstrap-logo, .git-logo, .npm-logo {
+    margin-bottom: 20px;
+}
+
+.npm-logo {
+    width: 256px;
+    height: 100px;
+}
+
+.git-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
+
+.bootstrap-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.techs-used hr {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-top: 2px solid rgb(66, 131, 206);
+    width: 100%;
+}
+
+@media (max-width : 800px) {
+    .npm-logo, .bootstrap-logo {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+    }
+}

@@ -1,6 +1,6 @@
 .cover-img {
     background-image: url('https://i.pinimg.com/originals/3c/24/46/3c24462450c2a902bf7e18f3d9aada81.jpg');
-    height: 500px;
+    height: 450px;
     background-repeat: no-repeat;
 }
 
@@ -8,8 +8,14 @@
     text-align: center;
     color: honeydew;
     position: relative;
-    top: 200px;
+    top: 150px;
     font-family: 'Concert One', cursive;
     text-shadow: 2px 2px rgb(12, 12, 12);
     font-size: 50px;
+}
+
+@media (max-width : 800px) {
+    .cover-text h1 {
+        top: 150px;
+    }
 }
